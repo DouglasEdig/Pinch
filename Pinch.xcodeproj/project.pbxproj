@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91B421EB2C4613D8003FE0FA /* InfoPainelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B421EA2C4613D8003FE0FA /* InfoPainelView.swift */; };
 		91E2ABEF2C3CF4A0004F94C4 /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2ABEE2C3CF4A0004F94C4 /* PinchApp.swift */; };
 		91E2ABF12C3CF4A0004F94C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2ABF02C3CF4A0004F94C4 /* ContentView.swift */; };
 		91E2ABF32C3CF4A2004F94C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E2ABF22C3CF4A2004F94C4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91B421EA2C4613D8003FE0FA /* InfoPainelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPainelView.swift; sourceTree = "<group>"; };
 		91E2ABEB2C3CF4A0004F94C4 /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E2ABEE2C3CF4A0004F94C4 /* PinchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchApp.swift; sourceTree = "<group>"; };
 		91E2ABF02C3CF4A0004F94C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,8 +56,8 @@
 				91E2ABFF2C3CF751004F94C4 /* Data */,
 				91E2ABFE2C3CF74A004F94C4 /* Model */,
 				91E2ABFD2C3CF73B004F94C4 /* View */,
-				91E2ABEE2C3CF4A0004F94C4 /* PinchApp.swift */,
 				91E2ABFC2C3CF70F004F94C4 /* Screen */,
+				91E2ABEE2C3CF4A0004F94C4 /* PinchApp.swift */,
 				91E2ABF22C3CF4A2004F94C4 /* Assets.xcassets */,
 				91E2ABF42C3CF4A2004F94C4 /* Preview Content */,
 			);
@@ -81,6 +83,7 @@
 		91E2ABFD2C3CF73B004F94C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				91B421EA2C4613D8003FE0FA /* InfoPainelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B421EB2C4613D8003FE0FA /* InfoPainelView.swift in Sources */,
 				91E2ABF12C3CF4A0004F94C4 /* ContentView.swift in Sources */,
 				91E2ABEF2C3CF4A0004F94C4 /* PinchApp.swift in Sources */,
 			);

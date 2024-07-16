@@ -65,6 +65,10 @@ struct ContentView: View {
           isAnimating = true
         }
       })
+      .overlay(
+        InfoPainelView(scale: imageScale, offset: imageOffset)
+        , alignment: .top
+      )
     }
     .navigationViewStyle(.stack)
   }
