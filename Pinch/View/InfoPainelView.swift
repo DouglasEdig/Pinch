@@ -58,7 +58,6 @@ struct InfoPainelView: View {
       Spacer()
     }
   }
-  
 }
 
 #Preview {
